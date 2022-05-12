@@ -1029,7 +1029,7 @@ class Solr(object):
         boost=None,
         fieldUpdates=None,
         commit=None,
-        softCommit=False,
+        softCommit=True,
         commitWithin=None,
         waitFlush=None,
         waitSearcher=None,
